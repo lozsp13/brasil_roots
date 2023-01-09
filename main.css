@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282828;
+    font-family: Roboto;
+}
+
+.logotipo img {
+width: 30px;
+margin-left: 16px;
+}
+.logotipo{
+    display: flex;
+}
+
+header {
+    padding: 16px 0;
+    color: #ecf0f1;
+  }
+
+.container, .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner{
+    display: flexbox;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    align-items: center;
+    padding: 16px 0px;
+    margin-right: 16px;
+}
+header nav li a{
+    color: #F92155;
+    text-decoration: none;
+    margin-right: 16px;
+}
+header nav li a:hover{
+    color: #ae0e33;
+}
+
+
+.banner-text {
+    display: inline;
+    padding: 16px 0px;
+    margin-bottom: 16px;
+    margin: 32px;
+}
+.banner-text{
+    font-family: Roboto;
+    color: #ecf0f1;
+}
+.banner img{
+    display: inline;
+    max-width: 600px;
+    margin-right: 16px;
+    border-radius: 250px;
+    border-style: solid;
+    border-color: #F92155;
+    border-width: 10px;
+}
+.botao{
+    background-color: #F92155;
+    color: #ecf0f1;
+}
+.botao{
+    border-radius: 90px;
+    padding: 8px 10px; 
+    margin: 10px 12px; 
+    width: 180px;
+    text-align: center;
+}
+.botao a{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #ae0e33;
+}
+.servicos{
+    background-color: #D1D1D1;
+
+}
+.servicos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.servicos h3{
+    background-color: #bfbfbf;
+    border-radius: 25px;
+    margin: 8px;
+    border-bottom: 10px;
+    padding: 25px;
+    max-width: 300px;
+    height: 200px;
+}
+.servicos h3{
+    margin-left: 35px;
+    margin-top: 25px;
+}
