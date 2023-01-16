@@ -1,109 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #282828;
-    font-family: Roboto;
+body {
+  background-color: #282828;
+  font-family: Roboto;
 }
 
 .logotipo img {
-width: 30px;
-margin-left: 16px;
+  width: 40px;
+  margin-left: 16px;
+  margin-right: 12px;
 }
-.logotipo{
-    display: flex;
+.logotipo {
+  display: flex;
 }
 
 header {
-    padding: 16px 0;
-    color: #ecf0f1;
-  }
-
-.container, .banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 16px 0;
+  color: #ecf0f1;
 }
-.banner{
-    display: flexbox;
-    align-items: center;
+
+.container,
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner {
+  display: flexbox;
+  align-items: center;
 }
 
 header nav li {
-    display: inline;
-    align-items: center;
-    padding: 16px 0px;
-    margin-right: 16px;
+  display: inline;
+  align-items: center;
+  padding: 16px 0px;
+  margin-right: 16px;
 }
-header nav li a{
-    color: #F92155;
-    text-decoration: none;
-    margin-right: 16px;
+header nav li a {
+  color: #f92155;
+  text-decoration: none;
+  margin-right: 16px;
 }
-header nav li a:hover{
-    color: #ae0e33;
+header nav li a:hover {
+  color: #ae0e33;
 }
-
 
 .banner-text {
-    display: inline;
-    padding: 16px 0px;
-    margin-bottom: 16px;
-    margin: 32px;
+  display: inline;
+  padding: 16px 0px;
+  margin-bottom: 16px;
+  margin: 32px;
 }
-.banner-text{
-    font-family: Roboto;
-    color: #ecf0f1;
+.banner-text {
+  font-family: Roboto;
+  color: #ecf0f1;
 }
-.banner img{
-    display: inline;
-    max-width: 600px;
-    margin-right: 16px;
-    border-radius: 250px;
-    border-style: solid;
-    border-color: #F92155;
-    border-width: 10px;
+.banner img {
+  display: inline;
+  max-width: 600px;
+  margin-right: 80px;
+  border-radius: 76% 24% 36% 64% / 54% 48% 52% 46%;
+  margin-bottom: 32px;
 }
-.botao{
-    background-color: #F92155;
-    color: #ecf0f1;
+.botao {
+  background-color: #f92155;
+  color: #ecf0f1;
 }
-.botao{
-    border-radius: 90px;
-    padding: 8px 10px; 
-    margin: 10px 12px; 
-    width: 180px;
-    text-align: center;
+.botao {
+  border-radius: 90px;
+  padding: 8px 10px;
+  margin: 10px 12px;
+  width: 180px;
+  text-align: center;
 }
-.botao a{
-    color:#ecf0f1;
-    text-decoration: none;
+.botao a {
+  color: #ecf0f1;
+  text-decoration: none;
 }
-.botao:hover{
-    background-color: #ae0e33;
+.botao:hover {
+  background-color: #ae0e33;
 }
-.servicos{
-    background-color: #D1D1D1;
-
+.servicos {
+  background-color: #d1d1d1;
 }
-.servicos{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
+.servicos {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
 }
-.servicos h3{
-    background-color: #bfbfbf;
-    border-radius: 25px;
-    margin: 8px;
-    border-bottom: 10px;
-    padding: 25px;
-    max-width: 300px;
-    height: 200px;
+.servicos h3 {
+  background-color: #bfbfbf;
+  border-radius: 25px;
+  margin: 8px;
+  border-bottom: 10px;
+  padding: 25px;
+  max-width: 300px;
+  height: 200px;
 }
-.servicos h3{
-    margin-left: 35px;
-    margin-top: 25px;
+.servicos h3 {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.time-link img {
+  max-width: 25px;
+}
+.persona {
+  clip-path: circle(50% at 50% 50%);
+  max-width: 180px;
+}
+.clientes {
+  background-color: #bfbfbf;
 }
